@@ -4,8 +4,8 @@ Goal get a block of # 31x9 of a random color via hex code or tack user input :
 
 Todo :
 
-[ ] Print # function 
+[X] Print # function
 
-[ ] Get User inpout 
+[ ] Get User inpout
 
-[ ] Hex code gen 
+[X] Hex code gen
