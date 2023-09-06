@@ -1,7 +1,7 @@
 import chalk from 'chalk';
-import Rando from 'js-rando';
-import { colord } from 'colord';
 import colors from 'color-name';
+import { colord } from 'colord';
+import Rando from 'js-rando';
 
 let rando = new Rando();
 let numOfLine = 9;
@@ -29,6 +29,12 @@ let userColor = colord({
 
 //colorHex = userColor;
 
-for (let i = 0; i < numOfLine; i++) {
-  console.log(chalk.hex(colorHex)('###############################'));
-}
+console.log(chalk.hex(colorHex)('###############################'));
+console.log(chalk.hex(colorHex)('###############################'));
+console.log(chalk.hex(colorHex)('###############################'));
+console.log(chalk.hex(colorHex)('#####                     #####'));
+console.log(chalk.hex(colorHex)(`#####     ${colorHex}         #####`));
+console.log(chalk.hex(colorHex)('#####                     #####'));
+console.log(chalk.hex(colorHex)('###############################'));
+console.log(chalk.hex(colorHex)('###############################'));
+console.log(chalk.hex(colorHex)('###############################'));
