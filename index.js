@@ -11,12 +11,6 @@ if (userInput01) {
     luminosity: userInput02,
     hue: userInput01,
   });
-
-  // if ((userInput02 = 'light')) {
-  // colorHex = colord(colorHex).lighten(0.3).toHex();
-  //} else if ((userInput02 = 'dark')) {
-  //colorHex = colord(colorHex).darken(0.3).toHex();
-  //}
 }
 
 console.log(chalk.hex(colorHex)('###############################'));
