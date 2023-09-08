@@ -5,36 +5,24 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@dashdashzako/random-hex-color':
-    specifier: ^3.0.2
-    version: 3.0.2
   chalk:
     specifier: ^5.3.0
     version: 5.3.0
-  color-2-name:
-    specifier: ^1.1.1
-    version: 1.1.1
-  color-name:
-    specifier: ^2.0.0
-    version: 2.0.0
   colord:
-    specifier: ^2.9.3
-    version: 2.9.3
+    specifier: ^1.1.0
+    version: 1.1.0
   colornames:
     specifier: ^1.1.1
     version: 1.1.1
   colors-helper-tools:
     specifier: ^1.5.7
     version: 1.5.7
-  hexa_color_random:
-    specifier: ^1.0.5
-    version: 1.0.5
+  i-randomjs:
+    specifier: ^1.2.8
+    version: 1.2.8
   js-rando:
     specifier: ^1.0.9
     version: 1.0.9
-  random-hex:
-    specifier: ^1.0.2
-    version: 1.0.2
   random-hexa-color:
     specifier: ^1.0.0
     version: 1.0.0
@@ -273,10 +261,6 @@ packages:
       '@babel/helper-validator-identifier': 7.22.15
       to-fast-properties: 2.0.0
     dev: true
-
-  /@dashdashzako/random-hex-color@3.0.2:
-    resolution: {integrity: sha512-p4ePoPgqm3Ev9YOf0/h7mpeh/NVWeJxcGmMcVIAyK/0JvR6Nxy7cf5M7hvZvYOrFicWRRwNZk6JufqlkaWn7IA==}
-    dev: false
 
   /@eslint-community/eslint-utils@4.4.0(eslint@8.48.0):
     resolution: {integrity: sha512-1/sA4dwrzBAyeUoQ6oxahHKmrZvsnLCg4RfxW3ZFGGmQkSNQPFNLV9CUEFQP1x9EYXHTo5p6xdhZM1Ne9p/AfA==}
@@ -895,10 +879,6 @@ packages:
       escape-string-regexp: 1.0.5
     dev: true
 
-  /color-2-name@1.1.1:
-    resolution: {integrity: sha512-iH2hqyhv9hgMNrn58wPYWzWxTd053zzsU4GIYpZoV++l9j365qhXoJAk+Yx/Xj3uHjjavJoHPBNYKYzPl6/TgQ==}
-    dev: false
-
   /color-convert@1.9.3:
     resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==}
     dependencies:
@@ -920,13 +900,8 @@ packages:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
     dev: true
 
-  /color-name@2.0.0:
-    resolution: {integrity: sha512-SbtvAMWvASO5TE2QP07jHBMXKafgdZz8Vrsrn96fiL+O92/FN/PLARzUW5sKt013fjAprK2d2iCn2hk2Xb5oow==}
-    engines: {node: '>=12.20'}
-    dev: false
-
-  /colord@2.9.3:
-    resolution: {integrity: sha512-jeC1axXpnb0/2nn/Y1LPuLdgXBLH7aDcHu4KEKfqw3CUhX7ZpfBSlPKyqXE6btIgEzfWtrX3/tyBCaCvXvMkOw==}
+  /colord@1.1.0:
+    resolution: {integrity: sha512-mZi3F6PgnbQuQrtguT+U3RQR7gYBg6BSdUJ6z6SuIwXimtpEIefPu9AYlRhdljLE+XMRv1LwcDoWmMVZlVuO7Q==}
     dev: false
 
   /colornames@1.1.1:
@@ -1800,13 +1775,15 @@ packages:
       function-bind: 1.1.1
     dev: true
 
-  /hexa_color_random@1.0.5:
-    resolution: {integrity: sha512-VP7IW01aWG59gCVIpIvjUR7foPirHM8eC/rqlgWQwKopSiqtlK08M/eWi6itgZ7tZ6jj5zkEVKZLXy7Afrx/xw==}
-    dev: false
-
   /hosted-git-info@2.8.9:
     resolution: {integrity: sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==}
     dev: true
+
+  /i-randomjs@1.2.8:
+    resolution: {integrity: sha512-Miv32K87EeAx09sznoj+ueZRlsnW/kXK4oBCS3tqkfrD/l1aqB5/lhKYQRQjnmRQEBxAffYHfGA5NfCXVUcdWA==}
+    dependencies:
+      xmlhttprequest: 1.8.0
+    dev: false
 
   /ignore@5.2.4:
     resolution: {integrity: sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==}
@@ -2422,10 +2399,6 @@ packages:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: true
 
-  /random-hex@1.0.2:
-    resolution: {integrity: sha512-MZa4hZIAFdVV/mzB1YZjdwrjzsjuYzR7gY1R9GDCQqGJYbbyQHp9+uS3T3vmhYM+GagELvufkE1eD0T1nSS1uQ==}
-    dev: false
-
   /random-hexa-color@1.0.0:
     resolution: {integrity: sha512-ye3klxyQScAvKCyTTQ8fT9v0igtiipFTISdvGdeQXtUUurOX8dGLKIoiAkPP0phfgDoPl5ip5sr82Yye64czTw==}
     dev: false
@@ -2916,6 +2889,11 @@ packages:
   /wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
     dev: true
+
+  /xmlhttprequest@1.8.0:
+    resolution: {integrity: sha512-58Im/U0mlVBLM38NdZjHyhuMtCqa61469k2YP/AaPbvCoV9aQGUpbJBj1QRm2ytRiVQBD/fsw7L2bJGDVQswBA==}
+    engines: {node: '>=0.4.0'}
+    dev: false
 
   /yallist@3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
