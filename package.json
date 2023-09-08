@@ -21,6 +21,7 @@
     "colors-helper-tools": "^1.5.7",
     "i-randomjs": "^1.2.8",
     "js-rando": "^1.0.9",
-    "random-hexa-color": "^1.0.0"
+    "random-hexa-color": "^1.0.0",
+    "randomcolor": "^0.6.2"
   }
 }
