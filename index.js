@@ -5,7 +5,6 @@ import randomColor from 'randomcolor';
 const userInput01 = argv[2];
 const userInput02 = argv[3];
 let colorHex = randomColor();
-const userColor = randomColor(userInput02);
 
 if (userInput01) {
   colorHex = randomColor({
